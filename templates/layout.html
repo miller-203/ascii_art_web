@@ -1,0 +1,19 @@
+{{define "layout"}}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>{{template "title"}}</title>
+    <link rel="stylesheet" href="/static/style.css" type="text/css" />
+  </head>
+  <body>
+  <div class="asciiheader">
+  </div>
+  <body>
+    {{template "body" .}}
+  </body>
+  <div class="asciifooter">
+   </div>
+   </body>
+</html>
+{{end}}
